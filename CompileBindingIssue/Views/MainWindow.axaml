@@ -1,14 +1,14 @@
 <Window xmlns="https://github.com/avaloniaui"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        xmlns:vm="using:AvaPlayground.ViewModels"
+        xmlns:vm="using:CompileBindingIssue.ViewModels"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         mc:Ignorable="d" d:DesignWidth="250" d:DesignHeight="250"
-        x:Class="AvaPlayground.Views.MainWindow"
+        x:Class="CompileBindingIssue.Views.MainWindow"
         x:DataType="vm:MainWindowViewModel"
         x:Name="root"
         Icon="/Assets/avalonia-logo.ico"
-        Title="AvaPlayground"
+        Title="CompileBindingIssue"
         Background="rgb(200, 200, 200)"
         Width="250" Height="250"
         x:CompileBindings="True">
@@ -16,9 +16,11 @@
     <StackPanel Orientation="Vertical"
         HorizontalAlignment="Center"
         VerticalAlignment="Center">
-        <TextBlock Text="The command binding below should throw an error!!"/>
+        <TextBlock Text="The command binding below should throw an error!!" Foreground="Black" FontWeight="Bold"/>
 
         <Button Command="{Binding TheClick}"
+                Foreground="Black"
+                Background="CornflowerBlue"
                 Margin="0,50,0,0"
                 Content="Click Me" HorizontalAlignment="Center"
                 Width="75" Height="30"/>

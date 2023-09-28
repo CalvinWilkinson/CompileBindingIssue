@@ -1,6 +1,6 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 
-namespace AvaPlayground.ViewModels;
+namespace CompileBindingIssue.ViewModels;
 
 public class ViewModelBase : ObservableObject
 {

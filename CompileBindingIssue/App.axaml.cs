@@ -1,11 +1,11 @@
 using Avalonia;
 using Avalonia.Controls.ApplicationLifetimes;
 using Avalonia.Markup.Xaml;
-using AvaPlayground.ViewModels;
-using AvaPlayground.Views;
+using CompileBindingIssue.ViewModels;
+using CompileBindingIssue.Views;
 using SimpleInjector;
 
-namespace AvaPlayground;
+namespace CompileBindingIssue;
 
 public partial class App : Application
 {

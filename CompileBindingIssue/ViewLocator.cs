@@ -1,9 +1,9 @@
 using System;
 using Avalonia.Controls;
 using Avalonia.Controls.Templates;
-using AvaPlayground.ViewModels;
+using CompileBindingIssue.ViewModels;
 
-namespace AvaPlayground;
+namespace CompileBindingIssue;
 
 public class ViewLocator : IDataTemplate
 {

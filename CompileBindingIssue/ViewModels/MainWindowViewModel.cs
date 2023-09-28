@@ -2,7 +2,7 @@
 using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 
-namespace AvaPlayground.ViewModels;
+namespace CompileBindingIssue.ViewModels;
 
 public partial class MainWindowViewModel : ViewModelBase
 {

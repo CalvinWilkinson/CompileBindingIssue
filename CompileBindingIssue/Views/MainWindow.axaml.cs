@@ -1,6 +1,6 @@
-using AvaPlayground.ViewModels;
+using CompileBindingIssue.ViewModels;
 
-namespace AvaPlayground.Views;
+namespace CompileBindingIssue.Views;
 
 public partial class MainWindow : WindowBase<MainWindowViewModel>
 {

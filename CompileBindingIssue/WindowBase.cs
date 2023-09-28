@@ -1,7 +1,7 @@
 ﻿using Avalonia.Controls;
-using AvaPlayground.ViewModels;
+using CompileBindingIssue.ViewModels;
 
-namespace AvaPlayground;
+namespace CompileBindingIssue;
 
 public abstract class WindowBase<TViewModel> : Window
     where TViewModel : ViewModelBase
